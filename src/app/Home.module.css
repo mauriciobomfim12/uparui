@@ -1,0 +1,414 @@
+@font-face {
+font-family: minhafont;
+src: url(../../public/arial-rounded-mt-bold.ttf);
+}
+
+.pagina{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.indicadores{
+    display: flex;
+    bottom: 20px;
+    width: 200px;
+    left:50%;
+    transform: translate(-50%);
+    position: relative;
+}
+
+.bola{
+    margin-left: 20px;
+    border-radius: 50%;
+    width:10px;
+    height:10px;
+    background: rgb(167, 167, 167);
+}
+
+.container{
+    width: 1200px;
+    height: 200px;
+    border-radius: 25px;
+    margin:35px;
+    overflow: hidden;
+}
+
+.imagem {
+    height: 100%;
+    width: 100%;
+}
+
+.slide1{
+    margin-left: 0%;
+}
+
+.barramenu{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(167,18,203), rgb(87,2,116));
+    height: 60px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.fundoBarraPesquisa{
+display: flex;
+margin-top: 1px;
+flex-grow: 3;
+justify-content: center;
+align-items: center;
+background: white;
+height:33px;
+width: 500px;
+min-width: 300px;
+border-radius: 15px;
+}
+
+.textobarrapesquisa{
+color: rgb(189,133,197);
+text-align: center;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 1px;
+}
+
+.barraconteudo{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+height:30px;
+width: 100%;
+box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.267);
+background: white;
+}
+
+.conteudos{
+display: flex;
+align-items: center;
+font-family: minhafont;
+font-size: 15px;
+color: rgb(101,5,132);
+margin-left: 15px;
+margin-right: 15px;
+}
+
+
+.perfilimg{
+height:35px;
+margin-bottom: 7px;
+}
+
+.cadastroimg{
+    height:35px;
+    margin-left: 7px;
+}
+
+.barraimg{
+    display: inline-block;
+    margin-left: 20px;
+    height:27px;
+    margin-bottom: 5px;
+}
+
+.nomeBarraCatalogo{
+display: inline-block;
+white-space: nowrap;
+margin-left: 10px;
+margin-bottom: 3px;
+font-weight: bold;
+}
+
+.juncao{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    width: 300px;
+}
+
+.englob{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.logoimg{
+    height:70px;
+    margin-top: 6px;
+    margin-right: 20px;
+}
+
+.juntar2{
+    display: flex;
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+
+
+
+.tamanhoCupo{
+margin-right: 5px;
+height:17px;
+cursor: pointer;
+}
+
+.tamanhoNoti{
+margin-right: 5px;
+height:22px;
+cursor: pointer;
+}
+
+.tamanhoConv{
+margin-right: 5px;
+height:23px;
+cursor: pointer;
+}
+
+.tamanhoPedi{
+margin-right: 5px;
+height:22px;
+cursor: pointer;
+}
+
+.tamanhoSuge{
+margin-right: 5px;
+height:22px;
+cursor: pointer;
+}
+
+.tamanhoFavo{
+margin-right: 5px;
+height:29px;
+cursor: pointer;
+}
+
+.tamanhoSupo{
+height:25px;
+cursor: pointer;
+}
+
+.tamanhoCest{
+margin-right: 5px;
+height:20px;
+cursor: pointer;
+}
+
+.tamanhoCada{
+margin-right: 5px;
+height:24px;
+cursor: pointer;
+}
+
+.centro{
+margin-bottom: 2px;
+}
+
+.catalogo{
+display:inline-block;
+height:100px;
+width:100px;
+background: rgb(217,202,222);
+border-radius: 100%;
+margin-left: 42px;
+margin-right: 42px;
+}
+
+.centroCatalogo{
+    display:flex;
+    justify-content: space-around;
+}
+
+.barraCatalogo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 1359px;
+    margin-top: 20px;
+    height:38px;
+    background: linear-gradient(rgb(167,18,203), rgb(87,2,116))
+}
+
+.alinhamento{
+    color: white;
+    display: inline-block;
+    font-family: minhafont;
+    font-size: 21px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.arrumar_mais{
+    color: white;
+    display: inline-block;
+    font-family: minhafont;
+    font-size: 21px;
+}
+
+.alinhamentoMais{
+display:flex;
+align-items: center;
+}
+
+.seta{
+height:22px;
+margin-top: 2px;
+margin-left: 6px;
+margin-right: 50px;
+}
+
+.produtoCustom{
+display: inline-block;
+justify-content: end;
+height: 200px;
+width:250px;
+border-radius: 20px;
+margin-left: 20px;
+background: rgb(217,202,222);
+margin-right: 25px;
+}
+
+.centroProdCustom{
+    display: flex;
+    flex-wrap: wrap;
+    width:1400px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.customIMG{
+display: inline-block;
+height: 50px;
+margin-left: 65%;
+}
+
+.frete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: linear-gradient(rgb(235,88,60), rgb(180,36,8))
+}
+
+.nomeFrete{
+color:white;
+font-family: minhafont;
+font-size: 20px;
+}
+
+.bandeira{
+height:17px;
+margin-left: 8px;
+margin-right: 8px;
+}
+
+.produtos2{
+display: inline-block;
+height:120px;
+width:150px;
+background:rgb(217,202,222);
+border-radius: 30px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.juntar{
+display:flex;
+justify-content: space-around;
+align-items: center;
+margin-left: 25px;
+margin-right: 25px;
+}
+
+.banner3{
+border-radius: 20px;
+height:300px;
+width: 1300px;
+background: rgb(217,202,222);
+margin-bottom: 70px;
+}
+
+.centralizarBanner{
+display:flex;
+justify-content: center;
+}
+
+.baner4{
+display: inline-block;
+height:400px;
+width: 635px;
+background: rgb(217,202,222);
+border-radius: 90px;
+margin-bottom: 50px;
+}
+
+.baner5{
+display: inline-block;
+height:400px;
+width: 635px;
+margin-left: 40px;
+background: rgb(217,202,222);
+border-radius: 90px;
+margin-bottom: 50px;
+}
+
+.juncaoBanners{
+    padding-left: 30px;
+    display:flex;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.sem-decoracao{
+text-decoration: none;
+}
+
+.alinhar_barra_conteudo{
+    display: flex;
+    align-items: center;
+}
+
+.ir{
+    margin-left: 800px;
+    position: absolute;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 400px;
+    background: rgba(255, 0, 0, 0);
+}
+
+.voltar{
+    position: absolute;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 400px;
+    background: rgba(255, 0, 0, 0);
+}
+
+.organizar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.produtosAuto{
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.nomeCatalogo2{
+    margin-bottom: 50px;
+}
+
